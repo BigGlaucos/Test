@@ -1,67 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
 
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
-
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    color: #fff;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: #fff;
 }
-  
-  body{
-    background-image: url(https://i.pinimg.com/originals/d3/38/95/d338958ff2bc814159af16dffa99bf00.gif);
-    background-repeat: no-repeat;
-    background-size:cover;
-    display: flex;
-    
-  }
-    .container{
-      margin: 0 auto;
-      width: 80%;
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-   
-    }
-  
-    .grid-planet{
-        margin: 0 auto;
-        display: grid;
-        grid-template-columns:   1fr 1fr 1fr;
-        grid-template-rows: 1fr  ;
-    }
-    .card{
-        width: 300px;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-    }
-    
-    img{
-        
-        height: 100%;
-        width:100%;
-        animation: float 6s ease-in-out infinite;
-  }
 
-#Sun{
- height: 90%;
-        width:80%;
+body {
+  background-image: url(https://i.pinimg.com/originals/d3/38/95/d338958ff2bc814159af16dffa99bf00.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+.container {
+  margin: 0 auto;
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-planet {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+.card {
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  animation: float 6s ease-in-out infinite;
+}
+
+#Sun {
+  height: 90%;
+  width: 80%;
 }
 
 @keyframes float {
-	0% {
-		
-		transform: translatey(0px);
-	}
-	50% {
-		
-		transform: translatey(-20px);
-	}
-	100% {
-		
-		transform: translatey(0px);
-	}
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
 }
